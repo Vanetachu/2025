@@ -2,7 +2,6 @@ nombre_de_variable = 2 * 8 #aqui estoy multiplicando 2 enteros
 print(nombre_de_variable)
 #print("ñ")
 # print("hola_mundo")
-# print("hola_mundo")
 primer_nombre = "vanessa"
 apellido_paterno = "mendoza"
 espacio = "-"
