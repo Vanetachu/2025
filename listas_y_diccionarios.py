@@ -33,7 +33,13 @@ cum = (
     + str(diccionario_fecha["año"])
 )
 print(f"El cumpleaños del profe es {cum}")
-
+diccionario_hora = {"hora": "9", "minuto": "15"}
+ingreso = (
+    str(diccionario_hora["hora"])
+    +" y "
+    +str(diccionario_hora["minuto"])
+)
+print(f"Hoy llegué un poco tarde, a las {ingreso}")
 # Listas de diccionario:
 # las listas tambien pueden contener diccionarios, como en el ejemplo del escrito japonés
 escritura1 = {
@@ -62,3 +68,22 @@ escritura4 = {
 }
 
 lista_escrituras = [escritura1, escritura2, escritura3, escritura4]
+#print(f"la lista mixta es: {lista_escrituras}")
+for item in lista_escrituras:
+    palabra=item["palabra"]
+    #print(palabra)
+    significado=item["significado"]
+    #print(significado)
+    print(f"la palabra {palabra} significa {significado}")
+temperaturas=range(100)
+lista_multiplos_seis = []
+for item in temperaturas:
+    #print(f"Los grados centigrados son {item + 1}")
+    if item % 2 == 0 and item % 3 == 0:
+        print(f"Este numero es multiplo de 6 : {item}")
+        lista_multiplos_seis.append(item) 
+    elif item % 3 == 0:
+        print(f"Este numero es multiplo de 3 {item}")
+    else:
+        print(f"Este numero no es multiplo de 3 {item}")
+print(lista_multiplos_seis)

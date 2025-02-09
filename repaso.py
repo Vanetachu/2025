@@ -60,7 +60,7 @@ if int_1 == "1":
 else:
     # aqui queda el bloque que se ejecutaría en el caso de que la afirmación del if sea False
     print("El int_1 no es igual a '1' puesto que no es un string")
-
+string_1 = "perro"
 # si quiero comparar 2 strings la lógica sería
 if string_1 == "perro":
     print("guau")
